@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Next Generation Firewall</header>
+      <ul>
+        <li >
+         <a class="nav-link" href="#Introduction">    
+           Introduction
+         </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Features_of_NGFW"> 
+          Features of NGFW
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Bnefits_of_NGFW"> 
+          Bnefits of NGFW
+          </a>
+         </li>
+        <li>
+          <a class="nav-link" href="#Next-generation_firewall_vs._Traditional_firewall"> 
+          Next-generation firewall vs. Traditional firewall
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#The_Five_types_of_Firewalls">
+            The Five types of Firewalls
+          </a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Need_of_NGFW"> 
+          Need of NGFW
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>A next-generation firewall (NGFW) is a security appliance that processes network traffic and applies rules to block potentially dangerous traffic. NGFWs evolve and expand upon the capabilities of traditional firewalls. 
+          A traditional firewall provides stateful inspection of network traffic. It allows or blocks traffic based on state, port, and protocol, and filters traffic based on administrator-defined rules.</p>
+<p></p><p></p><p></p><p></p>          
+<p>
+A next-generation firewall (NGFW) does this, and so much more. In addition to access control, NGFWs can block modern threats such as advanced malware and application-layer attacks. According to Gartner's definition, a next-generation firewall must include:</p>
+<p></p><p></p><p></p><p></p> 
+          <ul>
+            <li>Standard firewall capabilities like stateful inspection</li>
+            <li>Integrated intrusion prevention</li>
+            <li>Application awareness and control to see and block risky apps</li>
+            <li>Threat intelligence sources</li>
+            <li>Upgrade paths to include future information feeds</li>
+            <li>Techniques to address evolving security threats</li>
+          </ul>
+          <img src="data:image/jpeg;base64,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"/>
+        </article>
+      </section>
+      <section class="main-section" id="Features_of_NGFW">
+         <header>Features of NGFW</header>
+         <article>
+           <p>Next-generation firewall specifications vary by provider, but they generally include some combination of the following features:</p>
+           <ul>
+             <li><b>Application awareness</b>, or the ability to filter traffic and apply complex rules based on application (rather than just based on port). This is a key feature of next-generation firewalls: They can block traffic from certain applications, as well as maintain greater control over individual applications.</li>
+             <li><b>Deep-packet inspection</b>, which inspects the data contained in packets. Deep-packet inspection is an improvement over traditional firewall technology, which only inspected a packet’s IP header to determine its source and destination.</li>
+             <li><b>Intrusion Prevention System (IPS</b>), which monitors the network for malicious activity and blocks it where it occurs. This monitoring can be signature-based (matching activity to signatures of well-known threats), policy-based (blocking activity that violates security policies), or anomaly-based (monitoring for abnormal behavior).</li>
+             <li><b>High performance</b>, which allows the firewall to monitor large amounts of network traffic without slowdown. Next-generation firewalls include a number of security features that require processing time, so high performance are important to avoid disrupting business operations</li>
+             <li><b>External threat intelligence</b>, or communication with a threat intelligence network to ensure that threat information is up to date and help identify bad actors.</li>
+           </ul>
+           <p>In addition to these foundational features, next-generation firewalls may include additional features such as antivirus and malware protection. They may also be implemented as a Firewall as a Service (FWaaS), a cloud-based service that provides scalability and easier maintenance. With FWaaS, the firewall software is maintained by the service provider, and resources scale automatically to meet processing demand. This frees enterprise IT teams from dealing with the burden of handling patches, upgrades, and sizing.</p>
+           <img src="https://resolve.co.uk/wp-content/webp-express/webp-images/uploads/2022/03/Deep-Packet-Inspection.jpg.webp" />
+         </article>
+      </section>
+      <section class="main-section" id="Bnefits_of_NGFW">
+         <header>Bnefits of NGFW</header>
+         <article>
+           <p>Next-Generation Firewalls (NGFWs) offer a range of benefits that make them a crucial component of modern cybersecurity strategies. Here are some of the key advantages:</p>
+           <ol>
+            <li><b>Advanced Threat Protection:</b> NGFWs employ advanced techniques like deep packet inspection, intrusion detection and prevention, and behavioral analysis to detect and block sophisticated threats, including zero-day exploits, malware, and advanced persistent threats (APTs).</li>
+            <li><b>Application Awareness and Control:</b> NGFWs can identify and control applications and services running on the network, allowing organizations to enforce policies based on the specific applications being used. This helps improve security and manage bandwidth effectively.</li>
+            <li><b>User Identity and Access Control:</b> NGFWs integrate with identity management systems, enabling user-specific policies. This means that organizations can control access based on individual user identities, reducing the risk of unauthorized access.</li>
+            <li><b>Content Filtering:</b> NGFWs inspect the content of web traffic, emails, and file transfers for malicious content, inappropriate content, and compliance violations. This feature helps protect against malware infections, data leaks, and access to harmful websites.</li>
+            <li><b>SSL/TLS Inspection:</b> NGFWs can decrypt and inspect SSL/TLS-encrypted traffic, ensuring that threats are not hidden within encrypted sessions. This capability is crucial as encryption becomes more prevalent.</li>
+            <li><b>Behavioral Analysis:</b> Some NGFWs use machine learning and behavioral analysis to detect abnormal network behavior, helping to identify zero-day threats and attacks that lack known signatures.</li>
+            <li><b>Threat Intelligence Integration:</b> NGFWs often incorporate threat intelligence feeds and databases to identify known malicious IP addresses, domains, and URLs. This information helps block or alert on traffic to and from these sources.</li>
+            <li><b>Logging and Reporting:</b> NGFWs generate detailed logs and reports about network traffic and security events. This information is invaluable for incident response, compliance, and auditing purposes.</li>
+            <li><b>Application Layer Filtering:</b> NGFWs can inspect and filter traffic at the application layer of the OSI model, allowing for precise control and security measures related to specific applications and services.</li>
+            <li><b>Deep Packet Inspection (DPI):</b> DPI allows NGFWs to analyze the entire contents of data packets, enabling the detection of advanced threats and vulnerabilities that may be hidden in packet payloads.</li>
+           </ol>
+         </article>
+      </section>
+      <section class="main-section" id="Next-generation_firewall_vs._Traditional_firewall">
+         <header>Next-generation firewall vs. Traditional firewall</header>
+         <article>
+           <p>Traditional firewalls rely on port/protocol inspection and blocking to protect enterprise networks at the data link and transport layers (layers 2 and 4 of the OSI model). This static approach was effective in the past, when the IT environment was less dynamic than it is now, and applications could be identified by port. But with the increasing complexity of virtualized networks and more advanced security threats, it’s no longer enough. Next-generation firewalls are smarter: They can filter packets based on application (layer 7 of the OSI model), and even based on behavior, making fine-grained distinctions that are far more effective than the generic methods used by traditional firewalls. They also refer to external data to identify threats. This dynamic, flexible approach allows them to identify and defend against attackers that are much more sophisticated than in the past.</p>
+           <img src="https://www.thesecuritybuddy.com/wordpress/bdr/uploads/2020/02/NGFW_20.jpg.webp"/>
+         </article>
+      </section>
+      <section class="main-section" id="The_Five_types_of_Firewalls"> 
+        <header>The Five types of Firewalls</header>
+        <article>
+          <img src="https://networkinterview.com/wp-content/uploads/2021/04/TYPES-OF-FIREWALL-DP.jpg">
+          <ul>
+            <li><b>Packet filtering firewall:</b> Looks at the IP header of packets and drops ones that are flagged.</li>
+            <li><b>Circuit-level gateway:</b> Flags malicious content based on TCP handshakes and other network protocol session initiation messages, rather than looking at the packets themselves.</li>
+            <li><b>Stateful inspection firewall:</b> Combines packet filtering with session monitoring for an additional level of security.</li>
+            <li><b>Application-level gateway:</b> Filters packets by destination port and HTTP request string. Also known as a proxy firewall.</li>
+            <li><b>Next-generation firewall:</b> Employs application-level, context-aware, intelligent technology to protect against advanced threats.</li>
+          </ul>
+         </article>
+      </section>
+      <section class="main-section" id="Need_of_NGFW">
+         <header>Need of NGFW</header>
+         <article>
+           <p>We need a Next-Generation Firewall (NGFW) because it offers advanced security capabilities that are essential for safeguarding your network and data in today's ever-evolving cybersecurity landscape. Traditional firewalls, while useful, often lack the depth and precision required to combat modern threats. NGFWs go beyond basic packet filtering by providing features such as application awareness, user identity management, intrusion detection, and content filtering. They can identify and thwart complex threats like zero-day attacks and advanced malware, ensuring that your network remains secure. Additionally, NGFWs offer insights into application usage, allowing you to optimize bandwidth and enforce strict security policies. By investing in an NGFW, you enhance your organization's ability to detect, prevent, and respond to cyber threats effectively, ultimately reducing the risk of data breaches and network compromises.</p>     
+         </article>
+      </section>
+    </main>
+  </body>
+</html>
